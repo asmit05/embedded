@@ -1,0 +1,8 @@
+HAL_GPIO_WritePin(led4_GPIO_Port, led4_Pin, 0);
+	  HAL_GPIO_WritePin(GPIOC, led1_Pin|led2_Pin|led3_Pin, 0);
+	  HAL_GPIO_WritePin(GPIOB, led5_Pin|led6_Pin|led7_Pin|led8_Pin, 0);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(led4_GPIO_Port, led4_Pin, 1);
+	  HAL_GPIO_WritePin(GPIOC, led1_Pin|led2_Pin|led3_Pin,1);
+	  HAL_GPIO_WritePin(GPIOB, led5_Pin|led6_Pin|led7_Pin|led8_Pin, 1);
+	  HAL_Delay(1000);
